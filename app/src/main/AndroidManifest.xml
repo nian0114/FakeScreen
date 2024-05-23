@@ -33,13 +33,6 @@
                 android:name="android.service.quicksettings.ACTIVE_TILE"
                 android:value="true" />
         </service>
-        <service
-            android:name="me.neversleep.plusplus.ADBService"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="me.neversleep.plusplus.ADBService"/>
-            </intent-filter>
-        </service>
 
 
         <meta-data
